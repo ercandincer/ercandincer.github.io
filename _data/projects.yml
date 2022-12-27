@@ -1,0 +1,53 @@
+# - project :
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+#     image:
+#       path: "portfolio.png" # path: assets/project/
+#       alt: "A screenshot of the portfolio page"
+#     date: 05/2022 &ndash; Developing
+#     title: Grape-Theme
+#     summary: Academic portfolio jekyll theme.
+#     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+#     contents:
+#         - title: 1. Portfolio Page
+#           image:
+#             path: portfolio.png
+#             alt: "A screenshot of the portfolio page"
+#           description: <li>Concise portfolio page</li>
+#             <li>Recent publications</li>
+#             <li>Projects</li>
+#         - title: 2. Optional Blog Functionality
+#           image:
+#             path: home.png
+#             alt: "A screenshot of the blog page"
+#           description: <li>Responsive Layout</li>
+#             <li>Tags</li> 
+#             <li>Pagination</li>
+#         - title: 3. Tags Page
+#           image:
+#             path: tags.png
+#             alt: "A screenshot of the tags page"
+#           description: <li>Responsive Layout</li> 
+#             <li>Tags</li> 
+
+- project:
+    print: False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    # image: # path: assets/project/
+    date: Sep 2019 – June 2020
+    title: Course Scheduling Web Application
+    summary: An application that schedules university courses using a genetic algorithm capable of taking time and place constraints into account, running paralel in GPU/CPU and accompanying Web Application written in React to display/allow users to make changes.
+    description: A web application designed to analyze and fix course schedules at Sabanci University
+
+- project:
+    print: False # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url:  # Full URL
+    # image: # path: assets/project/
+    date: Sep 2019 – Jan 2020
+    title: Mobile Carpooling Application
+    summary: A Mobile Application with the aim to make carpooling easier for Sabanci University students.
+    description: A Mobile Application written using React Native for mobile and Java Spring for back-end development.
+
